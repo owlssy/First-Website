@@ -1,0 +1,52 @@
+.GameInfo{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.GameDetails{
+    display:table;
+    width:100%;
+    margin:auto;
+    
+}
+.GameDetails p{
+    width:50%;
+    float: left;
+}
+.GameDetails img{
+    width:40%;
+    float: left;
+}
+.Charactersdiv{
+    display:table;
+    width:100%;
+    float:left;
+}
+.Characters{
+    width:32%;
+    margin:auto;
+    float:left;
+
+}
+.Characters img{
+    width:98%;
+    margin:auto;
+}
+.Characters h5{
+ text-align: center;
+  margin:auto;  
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Gill Sans';
+}
+p{
+    background-color: lightsalmon;
+}
+
+.GameSummary img{
+    width:20%;
+    margin:auto;
+
+}

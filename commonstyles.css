@@ -1,0 +1,62 @@
+body{
+    font-family: 'Gill Sans';
+}
+nav{
+    background-color: deepskyblue;
+    width: 90%;
+    margin: 5px auto;
+    box-shadow: dimgray 3px 5px;
+    display:block;
+    font-family: 'Gill Sans';
+
+}
+
+nav a{
+    text-decoration: none;
+    margin:50px;
+    margin-left: 120px;
+
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    box-shadow: none;
+}
+
+header{
+    display: block;
+    border: mediumslateblue  3px dotted;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+#title{
+    color: black;
+    background-color: transparent;
+    float: left;
+    font-family: 'Gill Sans';
+    
+}
+
+footer{
+    display: block;
+    margin:auto;
+    position: sticky;
+    bottom: 5px;
+    width: 100%;
+
+}
+
+details{
+    float:left;
+    width: 98%;
+    margin:5px;
+}
+
+address{
+    margin:auto;
+    display: block;
+    text-align: center;
+}

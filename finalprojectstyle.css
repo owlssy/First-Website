@@ -1,0 +1,70 @@
+body{
+    background-color: thistle;
+    font-family: fantasy;
+    background-image: url("lots.jpg");
+}
+
+#title2{
+    background-color:rebeccapurple;
+    font-family: monospace;
+    color: mintcream;
+    font-size: 30px;
+    text-align: center;
+    border: violet 5px double;
+    width: 70%;
+    float: center;
+    margin: auto;
+    background-image: linear-gradient(rebeccapurple, violet, indigo);
+
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    border: rebeccapurple 3px outset;
+    background-color: indigo;
+    color: lavenderblush;
+    margin: auto;
+    
+}
+
+
+h5{
+    background-color: lavenderblush;
+    text-align: center;
+    border: rebeccapurple 5px double;
+    width: 70%;
+    float: center;
+    margin: auto;
+    background-image: radial-gradient(lavenderblush, violet);
+
+}
+
+img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+
+    
+  }
+
+  a{
+      margin: auto;
+      align-content: center;
+      width: 90% ;
+  }
+
+  hr{
+    border: rebeccapurple 3px outset;
+    background-color: indigo;
+    height: 15px;
+    border-radius:10% ;
+  }
+
+  .mediadiv iframe{
+    margin: 1%
+
+}
+.mediadiv{
+    background-image: linear-gradient(Lightpink, Plum);
+}

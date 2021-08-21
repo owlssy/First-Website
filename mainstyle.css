@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+
+header{
+    
+    border: mediumslateblue  3px dotted;
+}
+
+
+
+p{
+    background-color: lightsalmon;
+    font-family: Verdana;
+    border: gray 3px dotted;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#gif{
+    margin:auto;
+    width: 300px;
+    height:100px;
+
+}
+
+nav{
+   background-color: grey;
+    width: 90%;
+    margin:auto;
+    margin-top: 5px ;
+    box-shadow: dimgray 3px 5px;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin:50px;
+    margin-left: 120px;
+}

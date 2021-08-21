@@ -1,0 +1,100 @@
+body{
+    background-color: lightblue;
+    font-family: Gill Sans;
+}
+
+#title2{
+    background-color: lightsalmon;
+    font-family: Gill Sans;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    border:darkgrey 5px outset;
+    width: 70%;
+    float: center;
+    margin: auto;
+    border-radius: 10% 1%;
+    
+
+}
+#title3{
+    background-color: lightsalmon;
+    font-family: Gill Sans;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    border:darkgrey 5px outset;
+    width: 70%;
+    float: center;
+    margin: auto;
+    border-radius: 10% 1%;
+}
+h3{
+    color: black;
+    border: darkgrey 10px dotted;
+    font-family: Gill Sans;
+    text-align: center ;
+    background-color: lightsalmon;
+    width: 50% ;
+    margin: auto ;
+    border-radius: 10% 1%;
+}
+h4{
+    background-color:lightsalmon ;
+    font-family: Gill Sans;
+    color: black;
+    font-size: 30px;
+    text-align:center ;
+    border: darkgrey 6px inset;
+    width: 40% ;
+    margin: auto ;
+    border-radius: 10% 1%;
+}
+p{
+   
+    text-align: center;
+    font-family: Gill Sans;
+    border: rgb(13, 46, 46) 5px double;
+    color: black;
+    float: left;
+    width: 40%;
+    background-color: lightsalmon;
+    margin: 10px;
+    padding:50px;  
+    border-radius: 30% 1%;
+    box-shadow: darkgrey 10px 20px;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding:30px;
+    border-radius: 50% 30%;
+   
+}
+ #specialpara{
+     background-color: lightsalmon;
+ }
+
+ table{
+     color: midnightblue;
+     background-color: lightpink;
+ }
+ 
+ #para1{
+    text-align: center;
+    font-family: Gill Sans;
+    border: rgb(13, 46, 46) 5px double;
+    color: black;
+    width:30%;
+    margin: auto;
+    padding:20px;  
+    box-shadow: darkgrey 10px 20px;
+    float: initial;
+    
+ }
+ #specialparaduplicate{
+    background-color: lightsalmon;
+ }
