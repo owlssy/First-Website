@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Code</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="commonstyles.css">
+    <link rel="icon" href="owl.png">
+    <script>
+        var names=["table","chair","pillow","duck","dice","marble","computer","painting","ice","penguin"];
+        var randomindex= Math.floor(Math.random()*10)
+        console.log(randomindex)
+        var randomname= names[randomindex]
+        console.log(randomname)
+        
+    </script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="owl.png" onmouseover="changeimage()" onmouseout="originalimage()">
+        <h1 id="title">My Blog</h1>
+    </header>
+  
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="finalprojectskc.html">Books</a>
+        <a href="videogames.html">Video Games</a>
+        <a href="MyVacation.html">Travel</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="miniprojects.html">My Code</a>
+    </nav>
+<div class="projects">
+    <h2>Guess The Object!</h2>
+    <input type="text" id="name">
+    <button type="button" onclick="checkname()">Check Guess!</button>
+    <p id="result"></p>
+
+</div>
+<div class="projects" id="tabledivision">
+    <h2>Multiplication Table</h2>
+    <input type="number" id="number">
+    <button type="button" onclick="generate()">Generate Table</button>
+</div>
+
+
+
+
+
+
+
+    <footer>
+        <details> <summary>Disclamer</summary>Disclamer: This website is under my use. All pictures created by other artists do not belong to me.</details>
+        <address>My contact info</address>
+    </footer>
+    <script>
+        function checkname(){
+            var guestname=document.getElementById("name").value
+                document.getElementById("result").innerHTML="You guessed the word correctly! Good job."
+           
+            if(guestname==randomname){
+                document.getElementById("result").innerHTML="Correct!"
+
+            
+            }
+
+        
+    
+           else{
+                document.getElementById("result").innerHTML="Wrong :("
+        }
+        }
+        var e=document.createElement("p")
+        function generate(){
+            var usernumber=document.getElementById("number").value
+            var product=1
+            e.innerHTML=""
+            for(var i=1;i<=10;i++){
+                product=usernumber*i
+                console.log(product)
+                e.innerHTML+=product+"<br>"
+
+
+            }
+            document.getElementById("tabledivision").appendChild(e)
+
+        }
+
+    </script>
+    </body>
+
+    </html>
